@@ -2,7 +2,7 @@
 
 This project utilizes **XGBoost**, a powerful gradient boosting algorithm which has achieved **97% accuracy** in diabetes prediction, and **SHAP (SHapley Additive exPlanations)**, an explainability tool to provide detailed feature-level explanations for the predictions. The dataset contains health and demographic data, and the goal is to classify individuals as diabetic or non-diabetic while understanding the model's decision-making process.
 
-![Shap]()
+![Shap](https://github.com/fenicXs/Explainable-AI-for-Diabetes-Prediction-Using-SHAP-and-XGBoost/blob/fb64b4b63d1b9067b128a58508480cc667eb635e/shap.png)
 
 ## Project Overview
 
@@ -27,7 +27,7 @@ This project utilizes **XGBoost**, a powerful gradient boosting algorithm which 
   - `HbA1c_level`: Hemoglobin A1c level.
   - `blood_glucose_level`: Blood glucose level.
  
-![correlation heatmap]()
+![correlation heatmap](https://github.com/fenicXs/Explainable-AI-for-Diabetes-Prediction-Using-SHAP-and-XGBoost/blob/fb64b4b63d1b9067b128a58508480cc667eb635e/correlation%20heatmap.png)
 
 ## Dependencies
 
@@ -54,9 +54,9 @@ This project utilizes **XGBoost**, a powerful gradient boosting algorithm which 
 ## RESULTS
 
 ### Confusion Matrix
-![confusion matrix]()
+![confusion matrix](https://github.com/fenicXs/Explainable-AI-for-Diabetes-Prediction-Using-SHAP-and-XGBoost/blob/fb64b4b63d1b9067b128a58508480cc667eb635e/confusion%20matrix.png)
 
 ## SHAP Explainability
-  - Summary Plot: Identified HbA1c_level and blood_glucose_level as key predictors.
+  - Summary Plot: Identified **HbA1c_level** and **blood_glucose_level** as key predictors.
   - Force Plot: Explained individual predictions by showing feature contributions.
 
